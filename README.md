@@ -19,7 +19,7 @@
   ### docker --version
 
 * After that starting the docker, we need to execute below command to build the image
-  ### docker build -f Dockerfile -t spring-boot-docker-example
+  ### docker build -f Dockerfile -t spring-boot-docker-example .
  
 * After running the above command, we will see all the steps written in the Dockerfile(mentioned above) are getting executed. After that we will check the images using the below command and will see an image spring-boot-docker-example has got created
   ### docker images
